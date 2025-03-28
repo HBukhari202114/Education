@@ -5,6 +5,11 @@ const dotenv = require("dotenv");
 // const bodyParser = require("body-parser")
 const app = express();
 const Routes = require("./routes/route.js");
+// const chatRoutes = require("./routes/chat-routes");
+// app.use("/chat", chatRoutes);
+
+
+
 
 const PORT = process.env.PORT || 5000;
 

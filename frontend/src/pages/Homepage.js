@@ -17,12 +17,12 @@ const Homepage = () => {
                         <StyledTitle>
                             <span style={{ fontSize: "30px" }}>Welcome to</span>
                             <br />
-                            EduQuest
+                            EMTS
                             <br />
-                            <span style={{ fontSize: "30px" }}>a School Management System</span>
+                            <span style={{ fontSize: "30px" }}>A Education Management and Tracking System</span>
                         </StyledTitle>
                         <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
+                            Streamline EMTS, class organization, and add students and faculty.
                             Seamlessly track attendance, assess performance, and provide feedback.
                             Access records, view marks, and communicate effortlessly.
                         </StyledText>

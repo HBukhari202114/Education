@@ -1,5 +1,5 @@
 const router = require("express").Router();
-
+// const { sendMessage, getMessages } = require("../controllers/chat-controller.js")
 // const { adminRegister, adminLogIn, deleteAdmin, getAdminDetail, updateAdmin } = require('../controllers/admin-controller.js');
 
 const {
@@ -163,5 +163,10 @@ router.get("/Subject/:id", getSubjectDetail);
 router.delete("/Subject/:id", deleteSubject);
 router.delete("/Subjects/:id", deleteSubjects);
 router.delete("/SubjectsClass/:id", deleteSubjectsByClass);
+
+//Chat
+// router.post("/sendMessage", sendMessage);
+
+// router.get("/getMessages/:senderId/:receiverId", getMessages);
 
 module.exports = router;
